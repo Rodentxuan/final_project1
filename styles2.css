@@ -1,0 +1,83 @@
+html, body {
+  width: 100%;
+  overflow: hidden; 
+  background-image:url("images3/bg.jpg");
+  background-repeat: repeat; 
+  background-size: 100%;
+  font-family: 'Fira Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.1rem;
+  color: #608aa4;
+
+}
+
+.navbar__link{
+  margin-left: 600px;
+  margin:25px;
+  float:right;
+  font-family: 'Archivo', sans-serif;
+  cursor:url('images1/mouse2.png'), auto; 
+}
+
+a:active{
+      color:#e89893;
+
+}
+
+a:visited{
+  color: #f3d06b;
+}
+
+a{
+  text-decoration: none;
+  color: #f3d06b;
+  font-size: 30px;
+}
+
+.slideshow {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.slideshow-items {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.item {
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+
+.item-image-container {
+  position: relative;
+  top: auto;
+  bottom: 95px;
+  margin-left: 150px
+  
+}
+
+.item-image {
+  position: relative;
+  width: 701.6px;
+  height: auto;
+  opacity: 1;
+  display: block;
+  right: -100px;
+
+}
+
+.item-description {
+  position: absolute;
+  top: 150px;
+  right: 70px;
+  width: 40%;
+  padding-right: 4%;
+  line-height: 1.1;
+}
